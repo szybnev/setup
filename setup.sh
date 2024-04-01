@@ -11,7 +11,8 @@ echo "Created by Zybnev Sergey | https://t.me/poxek"
 echo 
 
 echo "Install prerequirements..."
-sudo apt update &> /dev/null; sudo apt install -y git curl wget &> /dev/null;
+sudo apt update &> /dev/null
+sudo apt install -y git curl wget &> /dev/null
 
 if ! command -v go &> /dev/null; then
     echo "Go is not installed. Installing..."
